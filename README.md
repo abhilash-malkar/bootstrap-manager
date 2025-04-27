@@ -1,4 +1,4 @@
-# Bootstrap 5 Manager
+# Bootstrap Manager
 
 Version: 1.0.0
 |
