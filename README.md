@@ -65,29 +65,6 @@ Your HTML page **must** include Bootstrap 5 CSS and the Bootstrap 5 JavaScript B
     <!-- App logic using BootstrapManager -->
     <script src="./sdk/bootstrap-sdk.umd.js"></script> 
 
-    <script>
-        const modal = BootstrapManager.createModal({
-            title: 'Modal Title',
-            body: `
-            <form id="form-modal">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="d-flex justify-content-end gap-2">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-            </form>
-            `,
-            backdrop: 'static',
-            keyboard: true,
-        });
-    </script>
 
     <!-- 2. Bootstrap 5 JS Bundle (must be included before or after your script that uses Bootstrap features) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
