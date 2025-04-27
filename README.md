@@ -1,10 +1,6 @@
 # Bootstrap 5 Manager
 
-Version: 1.0.0
-Author: Abhilash Malkar
-Repository: [https://github.com/abhilashmalkar/bootstrap-manager](https://github.com/abhilashmalkar/bootstrap-manager)
-Demo: [https://abhilashmalkar.github.io/bootstrap-manager/](https://abhilashmalkar.github.io/bootstrap-manager/)
-
+Version: 1.0.0 | Author: Abhilash Malkar
 ---
 
 A lightweight, dependency-free JavaScript library for dynamically creating and managing common Bootstrap 5 components (Modals, Tabs, Carousels) directly in the browser.
